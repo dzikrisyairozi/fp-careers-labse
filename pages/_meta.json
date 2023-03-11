@@ -1,0 +1,15 @@
+{
+  "index": "Introduction",
+  "advanced": "Advanced (A Folder)",
+  "about": {
+    "title": "About",
+    "type": "page",
+    "href": "https://www.instagram.com/labse_its/"
+  },
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "https://discord.gg/wzxEqsS34M",
+    "newWindow": true
+  }
+}
