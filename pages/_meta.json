@@ -1,15 +1,10 @@
 {
   "index": "Introduction",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page",
-    "href": "https://www.instagram.com/labse_its/"
-  },
+  "pembagian-kelompok": "Pembagian Kelompok",
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://discord.gg/wzxEqsS34M",
+    "href": "https://www.instagram.com/labse_its/",
     "newWindow": true
   }
 }
