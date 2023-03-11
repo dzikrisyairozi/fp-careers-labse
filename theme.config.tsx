@@ -29,6 +29,15 @@ const config: DocsThemeConfig = {
     text: 'Edit this page on GitHub',
   },
   docsRepositoryBase: 'https://github.com/Lab-RPL-ITS',
+  sidebar: {
+    titleComponent({ title, type }) {
+      if (type === 'separator') {
+        return <span className="cursor-default">{title}</span>
+      }
+      return <>{title}</>
+    },
+    defaultMenuCollapseLevel: 1,
+  },
   footer: {
     text: (
       <p>
