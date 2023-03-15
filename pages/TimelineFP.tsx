@@ -103,7 +103,6 @@ const TimelineFP = () => {
       defaultTimeEnd={endDate}
     >
       <TimelineHeaders
-        calendarHeaderStyle={dateHeaderStyles}
       >
         <div style={dateHeaderStyles}>
           <SidebarHeader >
@@ -114,7 +113,7 @@ const TimelineFP = () => {
         </div>
         
         <DateHeader unit="primaryHeader" />
-        <DateHeader unit="day" style={dateHeaderStyles}/>
+        <DateHeader unit="day" />
       </TimelineHeaders>
     </Timeline>
   </div>
